@@ -21,9 +21,20 @@ def getData():
     return
 
 if __name__ == "__main__":
-    userIn = int(input("Please choose one of the integer options:\n 1) setup\n 2) train\n 3) test\n"))
-    if (userIn == 1):
-        getData()
+    while(True):
+        userIn = int(input("Please choose one of the integer options:\n 1) setup\n 2) train\n 3) test\n 4) Quit\n"))
+        if (userIn == 1):
+            getData()
+        elif (userIn == 2):
+            pass
+        elif (userIn == 3):
+            pass
+        elif (userIn == 4):
+            print("Terminating...")
+            break
+        else:
+            print("Please enter a valid input...")
+            pass
     pass
 
 '''
