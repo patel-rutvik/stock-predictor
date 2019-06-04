@@ -1,2 +1,2 @@
 # stock-predictor
-hello
+This project is a WORK IN PROGRESS
